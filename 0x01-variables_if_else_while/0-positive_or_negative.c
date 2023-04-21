@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description : check if a number is positive or negative
- * Returnn: 0
+ *main - Entry point
+ *Description: 'check if a number is positive or negative'
+ *Return: 0
  */
 
 
@@ -15,7 +15,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	if (n == 0)
 	{
 		printf("%d is zero\n", n);
