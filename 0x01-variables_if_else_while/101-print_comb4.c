@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- * Description: printing combination of three digits
+ * Description: prints combination of numbers
  * Return: 0
  */
 
@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (j = i + 1; j < 58; j++)
 		{
-			for (k = j + 1; j < 58; j++)
+			for (k = j + 1; k < 58; k++)
 			{
 				putchar(i);
 				putchar(j);
@@ -34,6 +34,5 @@ int main(void)
 			}
 		}
 	}
-	
 	return (0);
 }
