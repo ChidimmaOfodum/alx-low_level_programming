@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -So $CFILE $CFILE
+gcc $CFILE -S -o hello
