@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- * Descrption: a program that calls a function
+ * print_alphabet - Entry point
+ * Description: a program that prints a line
  * Return: void
  */
 
 void print_alphabet(void)
 {
-	 {
-                char i;
+	char i;
 
-                for (i = 'a'; i <= 'z'; i++)
-                {
-                        _putchar(i);
-                }
-                _putchar('\n');
-        }
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
