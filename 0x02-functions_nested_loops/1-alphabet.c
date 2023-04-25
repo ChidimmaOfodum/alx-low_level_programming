@@ -2,11 +2,18 @@
 /**
  * main - Entry point
  * Descrption: a program that calls a function
- * Return: 0
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	 {
+                char i;
+
+                for (i = 'a'; i <= 'z'; i++)
+                {
+                        putchar(i);
+                }
+                putchar('\n');
+        }
 }

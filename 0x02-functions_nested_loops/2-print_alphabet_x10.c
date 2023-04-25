@@ -2,11 +2,21 @@
 /**
  * main -Entry point
  * Description - a program that prints alphabets 10 times
- * Return : 0
+ * Return : void
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+        int i;
+        int j;
+
+        for (i = 1; i <= 10; i++)
+        {
+                for (j = 'a'; j <= 'z'; j++)
+                {
+                        putchar(j);
+                }
+                putchar('\n');
+        }
 }
+
