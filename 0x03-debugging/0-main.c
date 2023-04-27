@@ -1,7 +1,16 @@
 #include "main.h"
 
 /**
- * postive_or_negative - checks if a numbe is - or +
- */
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
 
-postivie_or_negative(0);
+int main(void)
+{
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
+}
