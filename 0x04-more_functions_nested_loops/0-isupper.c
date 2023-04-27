@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _isupper: Entry point
- * @c: input parameter
+ * _isupper - Entry point for the function
  * Description: A function that checks if a letter is upper or lower
- * Return : 0 or 1
+ * @c: int inpiut
+ * Return: 0 or 1
  */
 
 int _isupper(int c)
 {
-	if (c >= 97 && c <= 90)
+	if (c >= 65 && c <= 90)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
