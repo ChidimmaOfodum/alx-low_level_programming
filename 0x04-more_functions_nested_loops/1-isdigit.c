@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _isdigit - Entry point
  * Description: checks whether input is a digit
  * @c: input parameter
