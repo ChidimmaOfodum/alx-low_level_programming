@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _putchar - prints characters to stdout
+ * _puts - prints characters to stdout
  * @str: characters to be printed
  */
 
