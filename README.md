@@ -1,1 +1,2 @@
-alx-low_level_programming readme (C)
+A readme for arrays and pointers
+readme for more malloc
