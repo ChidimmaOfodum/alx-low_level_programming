@@ -37,3 +37,4 @@ int is_prime_helper(int n, int divisor)
 		return (is_prime_helper(n, divisor + 1));
 	}
 }
+
