@@ -1,9 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+  * main - prints the products of arguments
+  * @argc: argument count
+  * @argv: argument vector
+  * Return: 0 or 1
+  */
+
 int main(int argc, char *argv[])
 {
 	int mul;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
