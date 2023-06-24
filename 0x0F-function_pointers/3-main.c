@@ -14,7 +14,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, a, b, result;
+	int a, b, result;
 	char *op;
 	int (*ptr)(int, int);
 
