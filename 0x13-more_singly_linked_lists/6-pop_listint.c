@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * pop_list - deletes a head list
+ * pop_listint - deletes a head list
  * @head: head node
  * Return: deleted node
  *
