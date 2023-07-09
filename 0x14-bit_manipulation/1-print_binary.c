@@ -1,5 +1,4 @@
 #include "main.h"
-void print_binary_helper(unsigned long int n);
 
 /**
  * print_binary - int to binary
@@ -9,20 +8,8 @@ void print_binary_helper(unsigned long int n);
 
 void print_binary(unsigned long int n)
 {
-	if (n == 0)
-		printf("0");
-	print_binary_helper(n);
-}
+	if (n > 1)
+		print_binary(n >> 1);
 
-/**
- * print_binary_helper - int to binary
- * @n: int to be converted
- * Return: void
- */
-void print_binary_helper(unsigned long int n)
-{
-	if (n == 0)
-		return;
-	print_binary_helper(n / 2);
-	printf("%lu", n % 2);
+	_putchar((n & 1) + '0');
 }
