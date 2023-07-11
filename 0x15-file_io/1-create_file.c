@@ -1,4 +1,12 @@
 #include "main.h"
+/**
+ * create_file - Creates a file if does not exist otherwise opens
+ * @filename: filename
+ * @text_content: text content to be written in the file
+ * Return: Success (1) Fail (-1)
+ *
+ */
+
 int create_file(const char *filename, char *text_content)
 {
 	int fdw, fdo, len = 0;
