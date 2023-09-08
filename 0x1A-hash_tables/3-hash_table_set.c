@@ -12,6 +12,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new_item->key = strdup(key);
 	new_item->value = strdup(value);
 
+	if (new_item->key == NULL || new_item->value == NULL)
+		return (0);
+
+	/**setting the item on the table **/
+
 	if (array[index] == NULL)
 	{
 		new_item->next = NULL;
