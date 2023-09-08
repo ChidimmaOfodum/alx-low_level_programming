@@ -1,4 +1,13 @@
 #include "hash_tables.h"
+
+/**
+ * hash_table_set - a function that sets an item on the table
+ * @ht: hash table
+ * @key: key
+ * @value: value
+ * Return: 1 on success 0 on failure
+ */
+
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t **array = ht->array;
@@ -6,7 +15,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	hash_node_t *new_item = malloc(sizeof(hash_node_t));
 
-	if (!new_item || value == NULL)
+	if (!new_item || value == NULL || ht == NULL)
 		return (0);
 
 	new_item->key = strdup(key);
