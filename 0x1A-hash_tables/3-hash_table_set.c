@@ -31,12 +31,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	/**setting the item on the table **/
 
-	if (array[index] == NULL)
+	if (array[index] == NULL || strcmp(array[index]->key, key) == 0)
 	{
 		new_item->next = NULL;
 		array[index] = new_item;
 	}
-
 	else
 	{
 		new_item->next = array[index];
